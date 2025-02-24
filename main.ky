@@ -1,0 +1,31 @@
+<JogoDaVelha>:
+    BoxLayout:
+        orientation: 'vertical'
+        
+        Label:
+            id: status_label
+            text: "Jogador X's vez"
+            font_size: 32
+            size_hint_y: None
+            height: 50
+        
+        GridLayout:
+            cols: 3
+            Button:
+                on_press: root.fazer_jogada(self)
+            Button:
+                on_press: root.fazer_jogada(self)
+            Button:
+                on_press: root.fazer_jogada(self)
+            Button:
+                on_press: root.fazer_jogada(self)
+            Button:
+                on_press: root.fazer_jogada(self)
+            Button:
+                on_press: root.fazer_jogada(self)
+            Button:
+                on_press: root.fazer_jogada(self)
+            Button:
+                on_press: root.fazer_jogada(self)
+            Button:
+                on_press: root.fazer_jogada(self
